@@ -1,7 +1,5 @@
+
 def temperature_checker(value, unit='C', cold_threshold=10, heat_threshold=30):
-    """
-    convert temperature from degrees to farenheit and from farenheit to degrees and also check their treshold based on the treshold provided.
-    """
 
     if unit.upper() == 'C':
         converted = (value * 9/5) + 32
